@@ -11,7 +11,7 @@ function generateHeader() {
     <nav class="navbar navbar-expand-lg navbar-dark py-3 navbar-transparent">
       <div class="container">
         <a class="navbar-brand d-flex align-items-center" href="/">
-          <img src="../images/logo.jpg" alt="Logo" id="image_logo" width="50" height="50" class="rounded-circle">
+          <img src="./images/logo.jpg" alt="Logo" id="image_logo" width="50" height="50" class="rounded-circle">
           <span class="ms-2 text-white roboto-regular">336 Hamburgueria</span>
         </a>
         <button class="navbar-toggler" type="button" onclick="openNav()">
@@ -22,17 +22,17 @@ function generateHeader() {
             <li class="nav-item">
               <a class="nav-link ${
                 IS_HOME ? "active" : ""
-              } bebas-neue-regular" href="../index.html">Página Inicial</a>
+              } bebas-neue-regular" href="./index.html">Página Inicial</a>
             </li>
             <li class="nav-item">
               <a class="nav-link ${
                 IS_MENU ? "active" : ""
-              } bebas-neue-regular" href="../pages/menu.html">Cardápio</a>
+              } bebas-neue-regular" href="./pages/menu.html">Cardápio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link ${
                 IS_CONTACT ? "active" : ""
-              } bebas-neue-regular" href="../pages/contact.html">Contato</a>
+              } bebas-neue-regular" href="./pages/contact.html">Contato</a>
             </li>
           </ul>
         </div>
@@ -40,13 +40,13 @@ function generateHeader() {
     </nav>
     <div id="mySidenav" class="side-nav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="../index.html" class="bebas-neue-regular ${
+      <a href="./index.html" class="bebas-neue-regular ${
         IS_HOME ? "active" : ""
       }">Página Inicial</a>
-      <a href="/..pages/menu.html" class="bebas-neue-regular ${
+      <a href="/.pages/menu.html" class="bebas-neue-regular ${
         IS_MENU ? "active" : ""
       }">Cardápio</a>
-      <a href="../pages/contact.html" class="bebas-neue-regular ${
+      <a href="./pages/contact.html" class="bebas-neue-regular ${
         IS_CONTACT ? "active" : ""
       }">Contato</a>
     </div>
@@ -136,7 +136,6 @@ function generateFooter() {
 
   FOOTER.innerHTML = FOOTER_CONTENT;
 
-  // Apply custom dark background to the footer
   FOOTER.style.backgroundColor = "#2b2b2b";
   FOOTER.style.color = "#ffffff";
   FOOTER.querySelectorAll("h5, p").forEach((el) => {
