@@ -18,23 +18,9 @@ Welcome to the 336 Hamburgueria website repository! This project showcases a mod
 - CSS (Bootstrap)
 - JavaScript
 
-## Setup and Installation
+## Access the website
 
-To set up the project locally, follow these steps:
-
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/leonardof108/336-mockup-page.git
-    ```
-
-2. **Navigate to the project directory**:
-    ```bash
-    cd 336-hamburgueria
-    ```
-
-3. **Open the project in your preferred code editor**.
-
-4. **Open the `index.html` file in your browser to view the website**.
+To access the live version of the website, [Click here](https://leonardof108.github.io/336-mockup-page/):
 
 ## File Structure
 
