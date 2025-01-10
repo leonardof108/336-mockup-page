@@ -59,7 +59,7 @@ function generateFooter() {
       </div>
       <div class="col-lg-3 col-md-12 offset-lg-1 mb-3">
         <h5 class="text-white text-center">Nos encontre no Google Maps</h5>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2242.013379236138138!2d-48.54248789053286!3d-27.59202123937306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952744e405f55557%3A0x370503dd957f67a9!2s336%20Hamburgueria!5e0!3m2!1sen!2sbr!4v1671303285669!5m2!1sen!2sbr" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.8112219496325!2d-51.152658699999996!3d-30.013576500000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951977487ec6e78d%3A0xfa28ef456c49c8af!2s336%20Hamburgueria!5e0!3m2!1sen!2sbr!4v1736510067172!5m2!1sen!2sbr" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       </div>
 
       <div class="col-lg-4 col-md-12 offset-lg-1 mb-3">
