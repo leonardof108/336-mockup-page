@@ -20,7 +20,7 @@ Welcome to the 336 Hamburgueria website repository! This project showcases a mod
 
 ## Access the website
 
-To access the live version of the website, [Click here](https://leonardof108.github.io/336-mockup-page/):
+To access the live version of the website, [Click here](https://leonardof108.github.io/336-mockup-page/)
 
 ## File Structure
 
