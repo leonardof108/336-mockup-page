@@ -24,15 +24,15 @@ body {
 .hero-section {
   position: relative;
   z-index: 1;
-  min-height: 70vh; /* Adjust height to fit the hero text */
+  min-height: 70vh;
   display: flex;
-  justify-content: flex-start; /* Align text to the left */
+  justify-content: flex-start;
   align-items: center;
   color: white;
-  background: url("/images/burger-bg.png") no-repeat center center;
+  background: url("../images/burger-bg.png") no-repeat center center;
   background-size: cover;
-  margin-top: -70px; /* Remove the gap between the burger background and the top */
-  padding-top: 70px; /* Compensate for the fixed navbar */
+  margin-top: -70px; 
+  padding-top: 70px; 
 }
 
 .hero-section::after {
@@ -42,7 +42,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.6); /* Darker overlay for better readability */
+  background: rgba(0, 0, 0, 0.6);
   z-index: -1;
 }
 
@@ -63,7 +63,7 @@ body {
 }
 
 .main-content {
-  padding-top: 100px; /* Add padding to ensure content doesn't overlap with navbar */
+  padding-top: 100px; 
 }
 
 .side-nav {
@@ -142,7 +142,7 @@ body {
 }
 
 .cover {
-  background: url("/images/burger-bg.png") no-repeat;
+  background: url("../images/burger-bg.png") no-repeat;
   position: relative;
   background-size: cover;
   background-position: center center;
@@ -152,7 +152,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.4); /* Dark overlay */
+  background: rgba(0, 0, 0, 0.4); 
 }
 
 .card-img-top {
@@ -180,8 +180,8 @@ body {
 
 @media (max-width: 768px) {
   .hero-section {
-    padding-top: 70px; /* Adjust padding for mobile to avoid navbar overlap */
-    text-align: center; /* Center align text on mobile */
+    padding-top: 70px; 
+    text-align: center; 
   }
 
   .hero-section h1 {
@@ -194,7 +194,7 @@ body {
 
   /* Mobile Overlay */
   .cover::after {
-    background: rgba(0, 0, 0, 0.7); /* Stronger dark overlay on mobile */
+    background: rgba(0, 0, 0, 0.7);
   }
 }
 
