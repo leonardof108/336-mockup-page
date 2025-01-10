@@ -3,9 +3,9 @@ const FOOTER = document.querySelector("#footer");
 
 function generateHeader() {
   const CURRENT_PATH = window.location.pathname;
-  const IS_HOME = CURRENT_PATH === "./" || CURRENT_PATH === "./index.html";
-  const IS_MENU = CURRENT_PATH === "./pages/menu.html";
-  const IS_CONTACT = CURRENT_PATH === "./pages/contact.html";
+  const IS_HOME = CURRENT_PATH === "./" || CURRENT_PATH === "./index";
+  const IS_MENU = CURRENT_PATH === "./pages/menu";
+  const IS_CONTACT = CURRENT_PATH === "./pages/contact";
 
   const HEADER_CONTENT = `
     <nav class="navbar navbar-expand-lg navbar-dark py-3 navbar-transparent">
@@ -22,17 +22,17 @@ function generateHeader() {
             <li class="nav-item">
               <a class="nav-link ${
                 IS_HOME ? "active" : ""
-              } bebas-neue-regular" href="./index.html">Página Inicial</a>
+              } bebas-neue-regular" href="./index">Página Inicial</a>
             </li>
             <li class="nav-item">
               <a class="nav-link ${
                 IS_MENU ? "active" : ""
-              } bebas-neue-regular" href="./pages/menu.html">Cardápio</a>
+              } bebas-neue-regular" href="./pages/menu">Cardápio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link ${
                 IS_CONTACT ? "active" : ""
-              } bebas-neue-regular" href="./pages/contact.html">Contato</a>
+              } bebas-neue-regular" href="./pages/contact">Contato</a>
             </li>
           </ul>
         </div>
@@ -40,13 +40,13 @@ function generateHeader() {
     </nav>
     <div id="mySidenav" class="side-nav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="./index.html" class="bebas-neue-regular ${
+      <a href="./index" class="bebas-neue-regular ${
         IS_HOME ? "active" : ""
       }">Página Inicial</a>
-      <a href="/.pages/menu.html" class="bebas-neue-regular ${
+      <a href="/.pages/menu" class="bebas-neue-regular ${
         IS_MENU ? "active" : ""
       }">Cardápio</a>
-      <a href="./pages/contact.html" class="bebas-neue-regular ${
+      <a href="./pages/contact" class="bebas-neue-regular ${
         IS_CONTACT ? "active" : ""
       }">Contato</a>
     </div>
